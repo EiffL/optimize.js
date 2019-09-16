@@ -201,7 +201,7 @@ var generate_data = function () {
           Math.random() - 0.5, Math.random() - 0.5];
     data = [];
     true_data = [];
-    for (i = 0; i < 50; i++) {
+    for (i = 0; i < 25; i++) {
         var x0 = (xrange[1] - xrange[0]) * Math.random() + xrange[0];
         data.push({x: x0, y: model(truth, x0)[0] + noise * window.randomNormal()});
     }
